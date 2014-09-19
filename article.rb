@@ -11,7 +11,7 @@ mongo_client = MongoClient.new
 db = mongo_client.db("art_db")
 coll = db["link"]
 puts db.collection_names
-#puts coll.find.to_a
+#puts coll.find.to_a abc
 
 url = 'http://www.otwock.pl/default.asp?ID=1&w=1'
 send = false
